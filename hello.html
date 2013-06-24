@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+    <title>Hello World - Typescript and Angular</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js" type="text/javascript"></script>
+    <script src="app.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<div ng-controller="HelloWorldController">
+    <div>
+        <input type="text" ng-model="inputText" />
+    </div>
+
+    <div>
+        <button ng-click="onDisplay()">Display me</button>
+    </div>
+
+    <div>
+        <h1>{{displayText}}</h1>
+    </div>
+</div>
+
+</body>
+</html>
